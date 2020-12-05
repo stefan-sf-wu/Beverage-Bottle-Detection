@@ -32,7 +32,7 @@ function G07(selpath)
             fprintf( fid,"%s ",selectedLabels(j) );
         end
         fprintf( fid,"\n" );
-    end
+    end 
     fclose(fid);
     
 end
